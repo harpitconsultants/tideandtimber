@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore East Coast beach rentals and peaceful mountain stays from Tide & Timber Getaways.">
+  <title>Tide & Timber Getaways</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Tide and Timber Getaways home">
+      <span class="mark" aria-hidden="true">T&T</span>
+      <span><strong>Tide & Timber</strong><small>Getaways</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#stays">Stays</a><a href="#about">About</a><a class="nav-cta" href="mailto:hello@example.com">Plan your stay</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo" role="img" aria-label="A peaceful coastal vacation home overlooking the water"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Beach days · Mountain mornings</p>
+        <h1>Find your favorite kind of quiet.</h1>
+        <p>Thoughtfully chosen stays along the East Coast and tucked into the mountains. Come for the view. Stay for the feeling.</p>
+        <a class="button" href="#stays">Explore all stays <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="intro" id="stays">
+      <div><p class="eyebrow">The collection</p><h2>Ten places to slow down</h2></div>
+      <div class="filters" role="group" aria-label="Filter properties">
+        <button class="active" data-filter="all">All stays</button>
+        <button data-filter="coast">Beach</button>
+        <button data-filter="mountain">Mountain</button>
+      </div>
+    </section>
+
+    <section class="property-grid" aria-live="polite">
+      <article class="property featured" data-type="coast">
+        <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1400&q=85" alt="Bright coastal home beside the water">
+        <div class="card-body"><p class="location">Outer Banks, North Carolina</p><h3>Saltwind House</h3><p class="details">8 guests · 4 bedrooms · 3 baths</p><div class="amenities"><span>Pool</span><span>Ocean view</span><span>Outdoor shower</span></div><button class="text-link" data-property="Saltwind House">View stay <span>↗</span></button></div>
+      </article>
+      <article class="property" data-type="mountain"><img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1000&q=85" alt="Warm cabin surrounded by forest"><div class="card-body"><p class="location">Gatlinburg, Tennessee</p><h3>Hemlock Hideaway</h3><p class="details">6 guests · 3 bedrooms · 2 baths</p><div class="amenities"><span>Hot tub</span><span>Fireplace</span></div><button class="text-link" data-property="Hemlock Hideaway">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="coast"><img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1000&q=80" alt="Coastal cottage with wide water views"><div class="card-body"><p class="location">Hilton Head, South Carolina</p><h3>Sea Glass Cottage</h3><p class="details">6 guests · 3 bedrooms · 2 baths</p><div class="amenities"><span>Pool</span><span>Bikes</span></div><button class="text-link" data-property="Sea Glass Cottage">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="mountain"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85" alt="Mountain retreat in a green valley"><div class="card-body"><p class="location">Asheville, North Carolina</p><h3>Blue Ridge Lookout</h3><p class="details">10 guests · 5 bedrooms · 4 baths</p><div class="amenities"><span>Hot tub</span><span>Game room</span></div><button class="text-link" data-property="Blue Ridge Lookout">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="coast"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=85" alt="Turquoise ocean water along a sandy beach"><div class="card-body"><p class="location">Rehoboth Beach, Delaware</p><h3>The Driftwood</h3><p class="details">8 guests · 4 bedrooms · 3 baths</p><div class="amenities"><span>Pool</span><span>Beach gear</span></div><button class="text-link" data-property="The Driftwood">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="mountain"><img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1000&q=85" alt="Cabin in a misty mountain forest"><div class="card-body"><p class="location">Davis, West Virginia</p><h3>Blackwater Cabin</h3><p class="details">4 guests · 2 bedrooms · 2 baths</p><div class="amenities"><span>Hot tub</span><span>Fire pit</span></div><button class="text-link" data-property="Blackwater Cabin">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="coast"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80" alt="Quiet beach and clear Atlantic water"><div class="card-body"><p class="location">St. Augustine, Florida</p><h3>Seabreeze Bungalow</h3><p class="details">6 guests · 3 bedrooms · 2 baths</p><div class="amenities"><span>Pool</span><span>Patio</span></div><button class="text-link" data-property="Seabreeze Bungalow">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="mountain"><img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1000&q=80" alt="Rustic woodland cabin"><div class="card-body"><p class="location">Poconos, Pennsylvania</p><h3>Pine & Stone Lodge</h3><p class="details">12 guests · 5 bedrooms · 4 baths</p><div class="amenities"><span>Hot tub</span><span>Lake access</span></div><button class="text-link" data-property="Pine & Stone Lodge">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="coast"><img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1000&q=75" alt="Relaxed cottage near the shoreline"><div class="card-body"><p class="location">Cape May, New Jersey</p><h3>Harborlight Cottage</h3><p class="details">5 guests · 2 bedrooms · 2 baths</p><div class="amenities"><span>Porch</span><span>Beach chairs</span></div><button class="text-link" data-property="Harborlight Cottage">View stay <span>↗</span></button></div></article>
+      <article class="property" data-type="mountain"><img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1000&q=80" alt="Secluded forest cabin with mountain atmosphere"><div class="card-body"><p class="location">Shenandoah, Virginia</p><h3>Cedar Sky Retreat</h3><p class="details">8 guests · 4 bedrooms · 3 baths</p><div class="amenities"><span>Hot tub</span><span>Mountain view</span></div><button class="text-link" data-property="Cedar Sky Retreat">View stay <span>↗</span></button></div></article>
+    </section>
+
+    <section class="about" id="about"><div><p class="eyebrow">Tide & Timber</p><h2>Two landscapes.<br>One way to get away.</h2></div><p>Whether your perfect morning starts with salt air or a forest view, our collection makes it easy to discover a stay that fits. Exact addresses are shared only with confirmed guests.</p></section>
+    <section class="contact"><p class="eyebrow">Ready when you are</p><h2>Which view are you choosing?</h2><p>Tell us which property caught your eye and your preferred travel dates.</p><a class="button light" href="mailto:hello@example.com?subject=Tide%20%26%20Timber%20Stay%20Inquiry">Ask about a stay</a></section>
+  </main>
+  <footer><div class="brand"><span class="mark">T&T</span><span><strong>Tide & Timber</strong><small>Getaways</small></span></div><p>Beach escapes & mountain stays · East Coast, USA</p><p>© 2026 Tide & Timber Getaways</p></footer>
+
+  <dialog id="stay-dialog"><button class="close" aria-label="Close">×</button><p class="eyebrow">Tide & Timber Getaways</p><h2 id="dialog-title"></h2><p>This property page is ready for your full description, photo gallery, house details, and inquiry information. Exact addresses are never shown publicly.</p><a class="button" id="dialog-link" href="mailto:hello@example.com">Ask about this stay</a></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
